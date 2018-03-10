@@ -239,27 +239,28 @@ a:hover {
   margin: 0 auto;
 }
 #head .title {
-  font-family: Alice, Georgia, serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 49px;
   font-size: 3.0625rem;
+  color: #FFFFFF;
 }
 #head .title a {
   text-decoration: none;
-  color: #333333;
+  color: #FFFFFF;
 }
 #head .tagline {
   display: block;
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.2em;
-  color: #7C7C7C;
+  color: #FFFFFF;
   margin: 5px 0 0;
 }
 #head .tagline b {
   font-weight: normal;
 }
 #head .tagline a {
-  color: #5E5E5E;
+  color: #FFFFFF;
 }
 .home #head {
   padding: 90px 0;

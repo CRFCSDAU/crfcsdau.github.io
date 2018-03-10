@@ -3,16 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/support/</loc>
+  </url>
+  
+  <url>
+    <loc>/education/</loc>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
   </url>
   
   <url>
-    <loc>/post/vivamus-lacus-mauris/</loc>
-    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/service/service3/</loc>
+    <loc>/post/cluster/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -22,7 +26,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -31,13 +35,17 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/service/service2/</loc>
   </url>
   
   <url>
-    <loc>/service/service4/</loc>
+    <loc>/service/service3/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -48,10 +56,6 @@
   <url>
     <loc>/tags/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/service/service2/</loc>
   </url>
   
 </urlset>

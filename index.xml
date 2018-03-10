@@ -6,70 +6,83 @@
     <description>Recent content on Clinical Research Facility - Cork || Statistics and Data Analysis Unit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jun 2013 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About</title>
+      <title>Support</title>
+      <link>/support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/support/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our team</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
-Necessitatibus Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!</description>
+      <description>Our team Darren L Dahly, PhD
+Principal Statistician
+ddahly@ucc.ie
+@statsepi
+Brendan Palmer, PhD
+Associate Statistician
+b.palmer@ucc.ie</description>
     </item>
     
     <item>
-      <title>Vivamus Lacus Mauris</title>
-      <link>/post/vivamus-lacus-mauris/</link>
-      <pubDate>Mon, 17 Jun 2013 12:00:00 +0000</pubDate>
+      <title>Magical clusters</title>
+      <link>/post/cluster/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/vivamus-lacus-mauris/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, rerum voluptates veniam. Esse, nihil, ea, eaque, quos cum id tempore voluptate nisi nemo debitis impedit officiis culpa repellat voluptatum in aperiam error quo minima ratione ex pariatur maxime eligendi dolore nesciunt molestiae enim alias atque commodi delectus perferendis. Blanditiis, iste placeat nostrum in! Eligendi, omnis, unde, quos ullam nesciunt molestias quis a saepe nisi distinctio molestiae voluptate obcaecati officiis consequuntur similique aspernatur rerum sequi placeat iure quaerat itaque libero officia recusandae ad corrupti aperiam cum beatae.</description>
+      <guid>/post/cluster/</guid>
+      <description>I was greeted today with the news that there are 5, not 2, types of diabetes. This is earth-shattering if you are a diabetologist or diabetes researcher. However, I soon as I saw the term “data-driven clustering” I knew I could probably relax.
+For the uninitiated, data-driven clustering techniques can seem magical. The basic premise is that you take a sample, measure lots of things about them, and then feed all those data into an algorithm that will divide your sample into mutually exclusive groups.</description>
     </item>
     
     <item>
-      <title>Application development</title>
-      <link>/service/service3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/service/service3/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Custom website design</title>
+      <title>Education</title>
       <link>/service/service1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/service/service1/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;
+      <description>&lt;p&gt;We regularly offer workshops in the areas of statistics, data, and coding using the R programming language for statistical computing. Please see our schedule of upcoming events here, as well as the Cork R-Users group. We can also deliver bespoke workshops for your research group.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>SEO &amp; SEM services</title>
-      <link>/service/service4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/service/service4/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Wordpress integration</title>
+      <title>Fee-based services</title>
       <link>/service/service2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/service/service2/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;
+      <description>&lt;p&gt;We also offer fee-based support for existing studies. Specific areas include study design and protocol development, statistical analysis plans, sample size estimation, statistical modelling, and reporting.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Grants</title>
+      <link>/service/service3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/service/service3/</guid>
+      <description>&lt;p&gt;SDAU staff are available to support grant applications as collaborators or co-investigators.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

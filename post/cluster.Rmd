@@ -1,0 +1,80 @@
+---
+title: "Magical clusters"
+author: "Darren L Dahly"
+date: "2018-03-03"
+output:
+  blogdown::html_page:
+    toc: FALSE
+    fig_width: 8
+    dev: "svg"
+---
+
+```{r setup, include = FALSE}
+
+  knitr::opts_chunk$set(echo = TRUE, include = TRUE, message = FALSE, 
+                        warning = FALSE)
+
+```
+
+I was greeted today with [the news that there are 5, not 2, types of diabetes](http://www.bbc.com/news/health-43246261). This is **earth-shattering** if you are a diabetologist or diabetes researcher. However, I soon as I saw the term "data-driven clustering" I knew I could probably relax. 
+
+For the uninitiated, data-driven clustering techniques can seem magical. The basic premise is that you take a sample, measure lots of things about them, and then feed all those data into an algorithm that will divide your sample into mutually exclusive groups. Then, hopefully, knowing what group a person is in will tell you something about them that isn't otherwise apparent in the data. This is a seductive idea. In this diabetes example, the authors are touting that knowing a patient's group will eventually be used to guide their treatment.  
+
+I suspect that some people reading about this research won't understand just how easy it is to detect groups. It's so easy in fact that I would be shocked if groups *weren't* found in most cases. This is because clustering, regardless of the specific method used, is just another way to describe relationships among variables - and as long as the variables are in fact related, you will find groups. Here is a simple example: 
+
+First, create some data for two variables. The first is just 1000 observations drawn from a standard normal. The second variable then multiplies the first variable by 2 and adds some additional randomly distributed noise. 
+
+```{r}
+
+  x <- rnorm(1000, 0, 1)
+  y <- (2 * x) + rnorm(1000, 0, 3)
+
+  data <- data.frame(x = x, y = y)
+  
+  
+```
+
+Plotting these data confirms that they are related. 
+
+```{r, fig.height = 6, fig.width = 6}
+
+    plot(x, y, data = data)
+
+
+```
+
+Pretending that we didn't just simulate these data, upon seeing them for the first time, most people would probably try to fit a regression line, the results of which are below. 
+```{r}
+
+  library(pander)
+
+  pander(lm(y ~ x, data))
+
+```
+
+
+So the results of the linear model confirm what we already know. However, there are other ways to explain the data, so to speak. Here are the results from a fairly constrained finite mixture model which is similar enough to the k-means approach used in the diabetes paper. 
+
+```{r}
+
+  library(mclust)
+
+  bic <- mclustBIC(data)
+
+  clusters <- Mclust(data, x = bic, modelNames = ("EII"))
+  
+# summary(clusters, parameters = TRUE)
+  
+  
+```
+```{r, fig.height = 6, fig.width = 6}
+
+  plot(clusters, what = "classification")
+
+```
+
+What you can see from the plot is that the clustering algorithm explained the x-y scatter plot by positing the existence of 8 groups of observations, each covering a different area in the overall space. In other words, the clustering algorithm is trying to describe 2 correlated variables when the only tool it has is to group people. As long as there is in fact a correlation between the two variables, then you are going to need more than one group to describe the data (unless you start to use more flexible models).
+
+So in most cases it is trivially easy to find groups. The challenge is of course to ascribe meaning to them. If we return to the linear regression, we might want to infer that x is a cause of y based on the observed relationship. However, we'd be foolish to do so without other information to support the causal claim. Similarly, you can pretend that data-driven clusters are revealing some deeper truth, but again, without other corroborating information, I wouldn't be making strong claims. 
+
+For additional thoughts, [Frank Harrell](https://twitter.com/f2harrell) also blogged about this [here](http://www.fharrell.com/post/errmed/#cluster); and [Maarten van Smeden](https://twitter.com/MaartenvSmeden) did some other simulation work described [here](https://twitter.com/MaartenvSmeden/status/970237614413570048).

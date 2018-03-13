@@ -17,7 +17,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/support/</guid>
-      <description></description>
+      <description>The HRB CRF-C Statistics and Data Analysis Unit supports local, patient-focused researchers in the areas of study design and data analysis. We operate under a collaborative model of support and work closely with investigators. Most of our collaborations can be classified as follows:
+Collaboration on new projects – Our primary means of working with investigators is on projects where SDAU staff will have a substantial influence on the design, conduct, analysis, and reporting of the research.</description>
     </item>
     
     <item>
@@ -35,13 +36,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Our team Darren L Dahly, PhD
-Principal Statistician
-ddahly@ucc.ie
-@statsepi
-Brendan Palmer, PhD
-Associate Statistician
-b.palmer@ucc.ie</description>
+      <description>Dr Darren L Dahly is the SDAU Principal Statistician. He has a PhD in Epidemiology from the University of North Carolina. Prior to joining the UCC School of Public Health as a Senior Lecturer in Research Methods, he worked at the Centre for Epidemiology and Biostatistics at the University of Leeds. Dr Dahly now collaborates and consults on a large and varied portfolio of patient-focused and public health research projects in and around Cork.</description>
     </item>
     
     <item>
@@ -60,7 +55,7 @@ For the uninitiated, data-driven clustering techniques can seem magical. The bas
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/service/service1/</guid>
-      <description>&lt;p&gt;We regularly offer workshops in the areas of statistics, data, and coding using the R programming language for statistical computing. Please see our schedule of upcoming events here, as well as the Cork R-Users group. We can also deliver bespoke workshops for your research group.&lt;/p&gt;
+      <description>&lt;p&gt;We regularly offer workshops in the areas of statistics, data, and coding using the R programming language for statistical computing. Please see our schedule of upcoming events here, as well as the Cork R-Users group. We can also deliver bespoke workshops for your research group. &lt;a href=&#34;/education&#34;&gt;Click here for more info.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
@@ -71,7 +66,7 @@ For the uninitiated, data-driven clustering techniques can seem magical. The bas
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/service/service2/</guid>
-      <description>&lt;p&gt;We also offer fee-based support for existing studies. Specific areas include study design and protocol development, statistical analysis plans, sample size estimation, statistical modelling, and reporting.&lt;/p&gt;
+      <description>&lt;p&gt;We also offer fee-based support for existing studies. Specific areas include study design and protocol development, statistical analysis plans, sample size estimation, statistical modelling, and reporting. &lt;a href=&#34;/support&#34;&gt;Click here for more info.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
@@ -82,7 +77,7 @@ For the uninitiated, data-driven clustering techniques can seem magical. The bas
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/service/service3/</guid>
-      <description>&lt;p&gt;SDAU staff are available to support grant applications as collaborators or co-investigators.&lt;/p&gt;
+      <description>&lt;p&gt;SDAU statisticians are available to support grant applications as collaborators or co-investigators. &lt;a href=&#34;/support&#34;&gt;Click here for more info.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

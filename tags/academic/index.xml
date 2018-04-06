@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Clinical Research Facility - Cork || Statistics and Data Analysis Unit</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on Clinical Research Facility - Cork || Statistics and Data Analysis Unit</description>
+    <title>Academic on Clinical Research Facility - Cork || Statistics and Data Analysis Unit</title>
+    <link>/tags/academic/</link>
+    <description>Recent content in Academic on Clinical Research Facility - Cork || Statistics and Data Analysis Unit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Apr 2018 12:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/academic/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>/post/2018-04-06-open_science_challenge/</guid>
       <description>I’m a big fan of open science, and regularly argue for its importance. Strangely, however, I’ve never actually used many of the available open science tools. It&amp;rsquo;s just too damn easy to keep going with the status quo. That stops today!
 Starting on Friday, April 20, Brendan and I will be hosting the HRB CRFC Open Science challenge. The challenge will be open until the end of the year, during which we will meet 2 or 3 times per month to develop an open science research project.</description>
-    </item>
-    
-    <item>
-      <title>Magical clusters</title>
-      <link>/post/cluster/</link>
-      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/cluster/</guid>
-      <description>I was greeted today with the news that there are 5, not 2, types of diabetes. This is earth-shattering if you are a diabetologist or diabetes researcher. However, I soon as I saw the term “data-driven clustering” I knew I could probably relax.
-For the uninitiated, data-driven clustering techniques can seem magical. The basic premise is that you take a sample, measure lots of things about them, and then feed all those data into an algorithm that will divide your sample into mutually exclusive groups.</description>
     </item>
     
   </channel>

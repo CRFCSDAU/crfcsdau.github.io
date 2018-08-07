@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Clinical Research Facility - Cork || Statistics and Data Analysis Unit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Jul 2018 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Aug 2018 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Open Science @ UCC</title>
+      <link>/post/openscienceucc/</link>
+      <pubDate>Tue, 07 Aug 2018 12:00:00 +0000</pubDate>
+      
+      <guid>/post/openscienceucc/</guid>
+      <description>The goal of Open Science @ UCC(Oct 31 to Nov 2, 2018) is to motivate and train 30 open science champions, who will work to support open science in their local research environments.
+The event will be a mixture of lectures, tutorials, and participant-driven un-conferencing. There will also be plenty of time for small-group discussion and other socializing. Participants will thus leave the workshop as skilled, confident advocates for open science, connected to a network of other open science experts.</description>
+    </item>
     
     <item>
       <title>Dealing with negative trial results</title>

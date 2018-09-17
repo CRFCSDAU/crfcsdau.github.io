@@ -49,8 +49,7 @@ Dr Darren L Dahly is the SDAU Principal Statistician. He has a PhD in Nutritiona
       
       <guid>/post/openscienceucc/</guid>
       <description>Open Science @ UCC is a 3 day workshop running from October 31 to November 2 (2018) at University College Cork.
-Open science practices help make research accessible, transparent, and replicable. While research funders now require the use of various open science practices, too few researchers are familiar with them.
-The goal of Open Science @ UCC is to bring accomplished experts in open science to Cork to train 30 Open Science Champions.</description>
+Open science practices help make research accessible, transparent, and replicable. Research funders (including H2020, SFI and HRB) are recognising the long term benefits to open science and new grant calls increasingly reflect this. The challenge for researchers is to become aware of the available options, and explore ways in which they can apply these techniques to their day-to-day research workflows.</description>
     </item>
     
     <item>
@@ -101,6 +100,15 @@ Starting on Friday, April 20, Brendan and I will be hosting the HRB CRFC Open Sc
       <guid>/post/cluster/</guid>
       <description>I was greeted today with the news that there are 5, not 2, types of diabetes. This is earth-shattering if you are a diabetologist or diabetes researcher. However, I soon as I saw the term “data-driven clustering” I knew I could probably relax.
 For the uninitiated, data-driven clustering techniques can seem magical. The basic premise is that you take a sample, measure lots of things about them, and then feed all those data into an algorithm that will divide your sample into mutually exclusive groups.</description>
+    </item>
+    
+    <item>
+      <title>Code of Conduct for Open Science @ UCC (2018)</title>
+      <link>/post/codeofconduct/</link>
+      <pubDate>Sun, 17 Sep 2017 12:00:00 +0000</pubDate>
+      
+      <guid>/post/codeofconduct/</guid>
+      <description>Summary The Organizers of Open Science @ UCC are dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion (or lack thereof). We will not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Workshop participants violating these rules may be sanctioned or expelled from the workshop, without a refund, at the discretion of the conference organizers.</description>
     </item>
     
     <item>

@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Clinical Research Facility - Cork || Statistics and Data Analysis Unit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Aug 2018 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Oct 2018 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>1-day R workshop for experienced users - Oct 30, 2018</title>
+      <link>/post/rworkshop/</link>
+      <pubDate>Tue, 09 Oct 2018 12:00:00 +0000</pubDate>
+      
+      <guid>/post/rworkshop/</guid>
+      <description>Overview: R is a programming language and free software environment for statistical computing and graphics. User instruction in R is often limited to course specific content, that focuses primarily on statistical operations through the base R package. R functionality extends far beyond this and across research fields. When combined with the RStudio GUI, R can be utilised as a powerful tool that encompasses data cleaning, exploration, visualisation and documentation operations.</description>
+    </item>
     
     <item>
       <title>Open Science @ University College Cork (Oct 31 to Nov 2)</title>

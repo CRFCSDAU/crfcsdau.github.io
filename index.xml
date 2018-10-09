@@ -6,7 +6,7 @@
     <description>Recent content on Clinical Research Facility - Cork || Statistics and Data Analysis Unit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Aug 2018 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Oct 2018 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,15 @@ Introductory R workshop: The tidyverse and beyond The lecture notes and R script
       <guid>/about/</guid>
       <description>OUR TEAM 
 Dr Darren L Dahly is the SDAU Principal Statistician. He has a PhD in Nutritional Epidemiology from the University of North Carolina. Prior to joining the UCC School of Public Health as a Senior Lecturer in Research Methods, he was a Lecturer in Statistical Epidemiology at the Centre for Epidemiology and Biostatistics at the University of Leeds. Dr Dahly now collaborates and consults on a large and varied portfolio of patient-focused and public health research projects in and around Cork.</description>
+    </item>
+    
+    <item>
+      <title>1-day R workshop for experienced users - Oct 30, 2018</title>
+      <link>/post/rworkshop/</link>
+      <pubDate>Tue, 09 Oct 2018 12:00:00 +0000</pubDate>
+      
+      <guid>/post/rworkshop/</guid>
+      <description>Overview: R is a programming language and free software environment for statistical computing and graphics. User instruction in R is often limited to course specific content, that focuses primarily on statistical operations through the base R package. R functionality extends far beyond this and across research fields. When combined with the RStudio GUI, R can be utilised as a powerful tool that encompasses data cleaning, exploration, visualisation and documentation operations.</description>
     </item>
     
     <item>

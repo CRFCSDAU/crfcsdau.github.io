@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Clinical Research Facility - Cork || Statistics and Data Analysis Unit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Oct 2018 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Nov 2018 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Trial Methods Week 1 - Reading Notes (Draft 1.0)</title>
+      <link>/post/trial_methods_wk_1/</link>
+      <pubDate>Wed, 14 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>/post/trial_methods_wk_1/</guid>
+      <description>Week 1 - Introduction The goals of week 1 are to:
+ Welcome everyone and introduce the module Explain the role of the statistician and their role on the trial team Motivate an interest in proper clinical trial design and analysis Introduce the most fundamental aspects of trial design, and justify the importance of control and randomization.  Welcome I want to welcome you all to this module on Clinical Trial Design and Analysis.</description>
+    </item>
     
     <item>
       <title>1-day R workshop for experienced users - Oct 30, 2018</title>

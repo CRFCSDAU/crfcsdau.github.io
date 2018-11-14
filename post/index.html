@@ -96,6 +96,125 @@
 				<article class="post">
 					<header class="entry-header">
 						<div class="entry-meta">
+							<span class="posted-on"><time class="entry-date published" date="2018-11-14 12:00:00 &#43;0000 UTC">November 14, 2018</time></span>
+						</div>
+						<h1 class="entry-title"><a href="/post/trial_methods_wk_1/" rel="bookmark">Trial Methods Week 1 - Reading Notes (Draft 1.0)</a></h1>
+					</header>
+					<div class="entry-content">
+						
+
+<h2 id="week-1-introduction">Week 1 - Introduction</h2>
+
+<p>The goals of week 1 are to:</p>
+
+<ol>
+<li>Welcome everyone and introduce the module</li>
+<li>Explain the role of the statistician and their role on the trial team</li>
+<li>Motivate an interest in proper clinical trial design and analysis</li>
+<li>Introduce the most fundamental aspects of trial design, and justify the importance of control and randomization.</li>
+</ol>
+
+<h3 id="welcome">Welcome</h3>
+
+<p>I want to welcome you all to this module on <strong>Clinical Trial Design and Analysis</strong>.</p>
+
+<p>You have already learned about all the important people it takes to run a clinical trial.  These include research nurses, pharmacists, data managers, information technologists, programmers, research assistants, monitors, regulatory experts, statisticians, clinical investigators, and of course the patients themselves.  Some of you taking this module are <strong>Clinical Investigators</strong>, and will be responsible for the medical care of patients enrolled in the study, the overall project management of the trial, and the scientific content of the study. This is a lot for any one person to contend with, so it is critical that you can count on the support from the other experts in the study team.</p>
+
+<p>When it comes to meeting the <strong>scientific</strong> goals of the trial, this support will primarily come from the <strong>Trial Statistician</strong>. Importantly, the clinical investigator and the trial statistician will each bring <strong>different but vital</strong> knowledge to bear on the trial’s design. The clinical investigator will be the subject-matter expert, knowledgeable about clinical problem at hand, and the potential solution being evaluated in the trial. The statistician’s expertise, on the other hand, is ultimately about how to draw appropriate <strong>inferences</strong> from the results of a given trial, and how to design trials that best support these efforts. Another way to view this distinction is that the clinical investigator is an expert on what we know, while statisticians focus on understanding how we come to know things.</p>
+
+<p>There is no doubt that good clinical investigators will, over time, acquire some of the statistician’s expertise, just as any respectable statistician will eventually become quite knowledgeable about the clinical areas they work in. However, a tenet of this module is that the role of the Trial Statistician should be respected as a <strong>unique</strong> contribution that is <strong>necessary</strong> for the successful conduct of a clinical trial.  Consequently, this module is not designed to teach you how to “be a statistician”, but rather how to work with a statistician to support optimal trial design .</p>
+
+<h3 id="why-good-design-and-analysis-matters">Why good design and analysis matters</h3>
+
+<p>Perhaps it is obvious to <em>you</em> why good trial design and analysis matters. There is a wealth of evidence however that clinical trials are often flawed in their design; and that errors in the analysis and reporting of trial data are common.</p>
+
+<p>The problems are not inconsequential. In 1994, the late Doug Altman, writing in the BMJ, talked about <a href="https://www.bmj.com/content/308/6924/283">“the scandal of poor medical research.”</a></p>
+
+<blockquote>
+<p>What should we think about a doctor who uses the wrong treatment, either wilfully or through ignorance, or who uses the right treatment wrongly (such as by giving the wrong dose of a drug)? Most people would agree that such behaviour was unprofessional, arguably unethical, and certainly unacceptable.
+What, then, should we think about researchers who use the wrong techniques (either wilfully or in ignorance), use the right techniques wrongly, misinterpret their results, report their results selectively, cite the literature selectively, and draw unjustified conclusions? We should be appalled. Yet numerous studies of the medical literature, in both general and specialist journals, have shown that all of the above phenomena are common. This is surely a scandal.</p>
+</blockquote>
+
+<p>One might hope that much has changed since Altman wrote these words, but in 2009, <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(09)60329-9/abstract">Chalmers and Glasziou</a> made the provocative claim that perhaps as much as 85% of research funding in the biomedical sciences was wasted. This claim was followed up in <a href="https://www.thelancet.com/series/research">a special issue on “research waste” in the Lancet five years later</a>. The reasons for research waste included a number of issues we will touch on to varying degrees in this modules. These were inappropriate or irrelevant research questions; biased or inaccessible reports of research results; and most importantly, from our perspective, errors in study design and data analysis.</p>
+
+<p>Around the time that research waste was capturing our attention, Ioannidis published his landmark 2005 paper in PLOS ONE, titled <a href="http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124">“Why most research findings are false.”</a>  While Chalmers, Glaziou and others were discussing a relatively broad set of problems, Ioannidis observations were more focused more on statistics and epistemology. In a nutshell, he argued that many research findings were likely to be so-called false positives, and outlined the circumstances that would most often lead to this. While Ioannidis’s position has been challenged (<a href="https://blogs.plos.org/absolutely-maybe/2013/12/16/biomedical-research-believe-it-or-not/">see here</a>), it helped promote the importance of meta-research (research about research) aimed at improving the methodological issues we are discussing.</p>
+
+<p>Ioannidis’s paper also coincided with increasing recognition of the <a href="https://www.nature.com/articles/s41562-016-0021">modern reproducibility crisis</a>. Largely starting in psychology, but since extending to other fields, researchers started to pay more attention to replicating earlier studies. Many were surprised to find that studies often failed to replicate, even very famous ones. This led researchers to think more deeply about these reasons for this, which subsequently drew more attention to so-called questionable research practices, such as p-hacking (the process of modifying a statistical analysis, often with good intentions, until an acceptable result is found).</p>
+
+<p>During this tumultuous period (which is ongoing), one particular statistical tool, the ubiquitous p-value, started to draw some of the blame for many of these problems. As we will learn next week, statisticians have been arguing about the value of p-values, or lack thereof, since the moment they were invented by Sir Ronald Fisher. However, this questioning of p-values among the wider community of scientists was notable, leading the American Statistical Association to commission an expert panel to weigh in. This resulted in a <a href="https://amstat.tandfonline.com/doi/abs/10.1080/00031305.2016.1154108">position paper from the ASA</a> attempting to clarify how p-values should and shouldn’t be used. Of course, in the great tradition of statisticians, the position paper has hardly settled matters, and arguments over p-values continue (e.g. <a href="https://www.nature.com/articles/s41562-017-0189-z">“Redefining Statistical Significance”</a> vs <a href="https://www.nature.com/articles/s41562-018-0311-x">“Justify Your Alpha”</a>).</p>
+
+<h3 id="the-researcher-as-statistician">The Researcher as Statistician</h3>
+
+<p>So where does all of this leave us with respect to this module on clinical trial design and analysis? In our opinion, many of the problems we just described are substantially driven by a lack of expert statistical input in many, if not most, studies.  This includes both the design of studies before they are conducted, and the analysis of the resulting data. Unfortunately, there aren’t enough experienced statisticians in the world to contribute to every study, so scientists are often expected to act as their own statistician (or similarly nominate someone they are working with).  Thus most of us receive at least some statistical training, though it is typically limited in the following ways:</p>
+
+<ul>
+<li>It typically centres on a statistical toolkit from which researchers select the appropriate test or procedure based on the characteristics the data they are using. While this tool kit is often sufficient for the analysis of well-conducted, relatively simple experiments, it completely lacks tools needed for common statistical challenges that occur in the wild, such as missing data, clustered observations, preventing overfit, measurement error, and model selection.</li>
+<li>The rationale for different statistical methods are often left unexplored, leaving students ill-equipped to apply them critically.</li>
+<li>There is little training, if any, in data management, manipulation, or visualization.</li>
+<li>Statistics is typically presented as something you do to data once they are collected, so that important links between study design and statistical methods are obscured.</li>
+<li>Because almost all scientists receive some training in statistics, the mathematical underpinnings are often omitted or glossed over to accommodate the wide range of learners’ previous maths training and quantitative aptitude.</li>
+<li>Students are frequently left with the impression that statistics is a monolith, firmly rooted in mathematics and thus somehow pure - while in truth the subject is highly contentious and as closely aligned to philosophy as it is to maths.</li>
+</ul>
+
+<p>A troubling consequence of all of this is that too many statistical analyses are conducted by researchers who readily admit that they don’t feel comfortable with statistics (or even dislike them), or by researchers who don’t understand the limits of their own statistical knowledge. Further, because many senior scientists aren’t any more comfortable with statistics than their less experienced colleagues, the task of analysing the data often falls on the latter. These problems, in our experience, can be exacerbated in clinical trials. This is because most clinical investigators receive even less training in study design and statistics than the scientists leading research in other fields. This of course no fault of their own – they are busy learning all of the critically important things they need to be good clinicians! This module then is partly aimed at catching everyone up, so to speak, while redressing some of the limitations of typical statistical training listed above - but perhaps more importanly, about teaching you how to work with a trial statistican.</p>
+
+<h3 id="randomized-controlled-trials-an-overview">Randomized controlled trials: An Overview</h3>
+
+<p>The randomized controlled trial (RCT) is widely recognized as the preferred study design for understanding the effects of an intervention. However, to reap the benefits of an RCT, it must be <strong>well-designed</strong> and <strong>properly conducted</strong>. This module is primarily focused on ensuring the former. RCT designs include several components, and choices regarding these components are deeply interrelated. It will thus be helpful to now take a big picture view of what these key components are.</p>
+
+<p>The first thing any trial needs is <strong>patients</strong>. This fact underpins critically important ethical considerations, as well as many practical aspects of trial conduct. Special care will be taken to define exactly which kinds of patients to include in the trial.</p>
+
+<p>The next thing a trial needs is an <strong>intervention</strong> we would like to test. Common examples include medicines, devices, and educational programs. For any proposed intervention, we will need to carefully consider <strong>equipoise</strong>, and how the nature of the intervention may impact the trial’s design.</p>
+
+<p>The final critical component to a trial is the <strong>outcome</strong> (or <strong>endpoint</strong>), which is something about the patients we can measure to facilitate judgement of the intervention. In other words, it is almost always the thing about the patients that the intervention is meant to improve. Examples would be blood pressure, weight, quality of life, and time to death.</p>
+
+<p>While one can technically run a <strong>trial</strong> with just the above three components, it’s really the next two components that really increase its evidential value. These are the use of a <strong>control</strong> arm, and using <strong>randomization</strong> to allocate patients to the different study arms.</p>
+
+<h3 id="concurrent-controls">Concurrent Controls</h3>
+
+<p>There is a famous story of a psychologist who went to work with the Israeli Air Force to help them improve the performance of their pilots (<a href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow">ref</a>). The psychologist talked about the value of positive reinforcement - but an experienced trainer questioned this, pointing out that when they praised pilots after they did well on an exercise, they almost always did worse the next time out. Conversely, when pilots performed poorly, they were yelled at or punished, and sure enough, their performance would almost always improve.  In other words, the experience of the trainer was completely counter to the psychologist’s advice. So who was right?</p>
+
+<p>If you think it was the trainers, then you’ve just fallen victim to one of the most pervasive challenges in data analysis, called regression to the mean. In a nutshell, regression to the mean is when we select a group based on having relatively extreme values for some variable (e.g. take all the pilots that did very well on an exercise), measure that variable again, and see that the second set of measurements aren’t as extreme, on average, as the first set.  To better understand this phenomena, please watch the following video, which uses an example from SIDD.</p>
+
+<p>[rtm.video]()</p>
+
+<p><a href="https://darrendahly.shinyapps.io/rtm_app/">rtm.app</a></p>
+
+<h3 id="randomization">Randomization</h3>
+
+<p>Randomization refers to a set of tools used to allocate study participants to different treatments based on chance alone. R.A. Fisher is widely credited with first employing randomization in experimental research, when he used chance to assign treatments to different plots of land in agricultural experiments (Fisher RA. The Design of Experiments, 7th ed. Edinburgh: Oliver and Boyd, 1971).  For Fisher, randomization was fundamental to the tests of significance he advocated, by supporting the assumptions about normal error distributions, and facilitating permutation tests when parametric assumptions were untenable (<a href="http://ije.oxfordjournals.org/content/32/6/925.long">REF</a>). We will discuss this further in the lessons on <strong>probability theory</strong> and <strong>statistical inference</strong>.</p>
+
+<p>Bradford Hill is then credited with promoting randomization in the context of clinical trials (<a href="http://www.bmj.com/content/2/4582/769.full.pdf+html">Medical Research Council (MRC). Streptomycin treatment of pulmonary tuberculosis: A Medical Research Council investigation. Br Med J 2:769-782, 1948</a>). Though a statistician, Hill’s focus on randomization was less about the statistical properties, but was more about his desire to allocate patients to treatments in an unbiased manner – to avoid “personal idiosyncrasies”, “personal judgement”, and importantly, to protect oneself from critics who might say that our treatment groups are different due to <a href="http://bmb.oxfordjournals.org/content/7/4/278.full.pdf+html">“our predilections or through our stupidity.”</a> In other words, Hill saw randomization as our best tool for maintaining <strong>allocation concealment</strong>, and thus improving <strong>causal inferences</strong>. The importance of allocation concealment in experiments was recognized much earlier than randomization per se, and researchers were already using methods such as alternation (see the <a href="http://www.jameslindlibrary.org/essays/2-2-the-need-to-compare-like-with-like-in-treatment-comparisons/">James Lind Library</a> for an interesting, comprehensive overview). Hill understood, however, that while these tools might conceal allocation in theory, they were far from fool-proof.  The value of randomization for this purpose is now well recognized. In modern trials, randomization is now required for “utmost good faith”, and any regulator would likely be suspicious of a trial where the investigators chose not to randomize (SIDD p35).</p>
+
+<h3 id="required-reading">Required reading</h3>
+
+<p><a href="http://www.senns.demon.co.uk/SIDD.html">SIDD 2007</a> - Chapter 3</p>
+
+<h3 id="discussion">Discussion</h3>
+
+<p>Topic 1 - Randomization
+Workplace Wellness Programs Don’t Work Well. Why Some Studies Show Otherwise.
+<a href="https://www.nytimes.com/2018/08/06/upshot/employer-wellness-programs-randomized-trials.html">https://www.nytimes.com/2018/08/06/upshot/employer-wellness-programs-randomized-trials.html</a></p>
+
+<p>Topic 2 – Placebo effects and regression to the mean
+The Therapeutic Effect of Intra-articular Normal Saline Injections for Knee Osteoarthritis: A Meta-analysis of Evidence Level 1 Studies
+<a href="http://journals.sagepub.com/doi/abs/10.1177/0363546516680607?journalCode=ajsb">http://journals.sagepub.com/doi/abs/10.1177/0363546516680607?journalCode=ajsb</a></p>
+
+<h3 id="additional-reading">Additional reading:</h3>
+
+<p>SIDD – Chapter 5
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4415704/">Bridging Clinical Investigators and Statisticians: Writing the Statistical Methodology for a Research Proposal</a></p>
+
+<p><a href="https://www.jstor.org/stable/2683811?seq=1#page_scan_tab_contents">The Statistician&rsquo;s Role in Developing a Protocol for a Clinical Trial</a></p>
+
+<p><a href="http://annals.org/aim/article-abstract/2706170/researcher-requests-inappropriate-analysis-reporting-u-s-survey-consulting-biostatisticians">Researcher Requests for Inappropriate Analysis and Reporting: A U.S. Survey of Consulting Biostatisticians</a></p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
 							<span class="posted-on"><time class="entry-date published" date="2018-10-09 12:00:00 &#43;0000 UTC">October 9, 2018</time></span>
 						</div>
 						<h1 class="entry-title"><a href="/post/rworkshop/" rel="bookmark">1-day R workshop for experienced users - Oct 30, 2018</a></h1>

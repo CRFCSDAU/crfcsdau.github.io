@@ -15,6 +15,11 @@
   </url>
   
   <url>
+    <loc>/post/hrbdataevent/</loc>
+    <lastmod>2020-02-10T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/homr/</loc>
     <lastmod>2019-04-21T00:00:00+00:00</lastmod>
   </url>
@@ -66,7 +71,7 @@
   
   <url>
     <loc>/tags/academic/</loc>
-    <lastmod>2018-11-14T12:00:00+00:00</lastmod>
+    <lastmod>2020-02-10T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -77,7 +82,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-04-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-10T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -95,7 +100,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-04-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-10T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,7 +111,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-11-14T12:00:00+00:00</lastmod>
+    <lastmod>2020-02-10T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,7 +6,7 @@
     <description>Recent content on Clinical Research Facility - Cork || Statistics and Data Analysis Unit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,17 @@ Introductory R workshop: The tidyverse and beyond The lecture notes and R script
       <guid>/about/</guid>
       <description>OUR TEAM 
 Dr Darren L Dahly is the SDAU Principal Statistician. He has a PhD in Nutritional Epidemiology from the University of North Carolina. Prior to joining the UCC School of Public Health as a Senior Lecturer in Research Methods, he was a Lecturer in Statistical Epidemiology at the Centre for Epidemiology and Biostatistics at the University of Leeds. Dr Dahly now collaborates and consults on a large and varied portfolio of patient-focused and public health research projects in and around Cork.</description>
+    </item>
+    
+    <item>
+      <title>Data Management in Health Research: You&#39;re funded but are you FAIR?</title>
+      <link>/post/hrbdataevent/</link>
+      <pubDate>Mon, 10 Feb 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/hrbdataevent/</guid>
+      <description>This 2-day event will run on Tuesday 7th and Wednesday 8th April 2020 University College Cork.
+Research funding is evolving and the onus now rests on primary researchers to plan the collection and curation of research data with a view to maximise its availability, and the software and materials that underpin it.
+From the 1st January 2020, data gathered and generated in whole or in part from Health Research Board (HRB) funded research will subject to the HRB policy on Management and Sharing of Research Data.</description>
     </item>
     
     <item>

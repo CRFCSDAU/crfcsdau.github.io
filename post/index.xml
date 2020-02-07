@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Clinical Research Facility - Cork || Statistics and Data Analysis Unit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Management in Health Research: You&#39;re funded but are you FAIR?</title>
+      <link>/post/hrbdataevent/</link>
+      <pubDate>Mon, 10 Feb 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/hrbdataevent/</guid>
+      <description>This 2-day event will run on Tuesday 7th and Wednesday 8th April 2020 University College Cork.
+Research funding is evolving and the onus now rests on primary researchers to plan the collection and curation of research data with a view to maximise its availability, and the software and materials that underpin it.
+From the 1st January 2020, data gathered and generated in whole or in part from Health Research Board (HRB) funded research will subject to the HRB policy on Management and Sharing of Research Data.</description>
+    </item>
     
     <item>
       <title>Evaluating a logistic regression based prediction tool in R</title>
